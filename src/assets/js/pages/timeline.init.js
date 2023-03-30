@@ -23,7 +23,7 @@ var swiper = new Swiper(".timelineSlider", {
 	},
 	breakpoints: {
 		640: {
-			slidesPerView: 1,
+			slidesPerView: 2,
 			spaceBetween: 20,
 		},
 		768: {
@@ -31,7 +31,7 @@ var swiper = new Swiper(".timelineSlider", {
 			spaceBetween: 40,
 		},
 		1024: {
-			slidesPerView: 2,
+			slidesPerView: 3,
 			spaceBetween: 50,
 		},
 		1200: {

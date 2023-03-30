@@ -6,7 +6,7 @@
 	&.landing {
 		background-color: var(--#{$prefix}card-bg-custom);
 		font-size: 16px;
-		color: $gray-600;
+		color: $gray-700;
 
 		h2 {
 			font-size: 36px;
@@ -68,7 +68,7 @@
 				&:hover,
 				&.active,
 				&:focus {
-					color: $success !important;
+					color: $primary !important;
 				}
 			}
 		}
@@ -260,43 +260,6 @@
 					display: block;
 				}
 			}
-		}
-	}
-}
-
-// override
-.landing {
-	.badge {
-		font-size: 16px;
-	}
-	.row {
-		[class^="col-"] {
-			.card {
-				height: 100%;
-			}
-		}
-	}
-
-	#portfolio {
-		.container-fluid {
-			padding-left: 0;
-			padding-right: 0;
-			.row {
-				margin-left: 0;
-				margin-right: 0;
-				.col-lg-12 {
-					padding-left: 0;
-					padding-right: 0;
-				}
-			}
-		}
-	}
-
-	#frontend {
-		.container {
-			margin-top: -150px;
-			background: white;
-			padding: 50px;
 		}
 	}
 }

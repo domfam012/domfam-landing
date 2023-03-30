@@ -10,10 +10,7 @@ File: nft-landing init js
 function windowScroll() {
 	var navbar = document.getElementById("navbar");
 	if (navbar) {
-		if (
-			document.body.scrollTop >= 50 ||
-			document.documentElement.scrollTop >= 50
-		) {
+		if (document.body.scrollTop >= 50 || document.documentElement.scrollTop >= 50) {
 			navbar.classList.add("is-sticky");
 		} else {
 			navbar.classList.remove("is-sticky");
@@ -58,8 +55,8 @@ Array.from(filterBtns).forEach(function (button) {
 //collection categories
 var swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	slidesPerView: 4,
-	spaceBetween: 30,
+	slidesPerView: 2,
+	spaceBetween: 10,
 	loop: true,
 	autoplay: {
 		delay: 2500,
@@ -73,6 +70,24 @@ var swiper = new Swiper(".mySwiper", {
 	//     nextEl: ".swiper-button-next",
 	//     prevEl: ".swiper-button-prev",
 	// },
+	breakpoints: {
+		640: {
+			slidesPerView: 2,
+			spaceBetween: 10,
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 20,
+		},
+		1024: {
+			slidesPerView: 4,
+			spaceBetween: 30,
+		},
+		1200: {
+			slidesPerView: 4,
+			spaceBetween: 30,
+		},
+	},
 });
 
 //
@@ -87,10 +102,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-	if (
-		document.body.scrollTop > 100 ||
-		document.documentElement.scrollTop > 100
-	) {
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		mybutton.style.display = "block";
 	} else {
 		mybutton.style.display = "none";

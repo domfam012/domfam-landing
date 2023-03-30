@@ -602,8 +602,6 @@ gulp.task('copy:all', function (cb) {
                         '!' + paths.src.js.main,
                         '!' + paths.src.js.files,
                         '!' + paths.src.scss.dir,
-						'!' + paths.src.images.files,
-						'!' + paths.src.fonts.files,
                     ]).pipe(gulp.dest(destPath));
                 if (i == envConfig.demos.length - 1)
                     resolve(proc);
