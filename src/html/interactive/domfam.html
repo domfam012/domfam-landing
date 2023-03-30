@@ -1,0 +1,538 @@
+@@include("partials/main.html")
+
+<head>
+
+    @@include("partials/title-meta.html", {"title": "Landing"})
+
+    <!--Swiper slider css-->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+
+    @@include("partials/head-css.html")
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <!-- Begin page -->
+    <div class="layout-wrapper landing">
+        <nav class="navbar navbar-expand-lg navbar-landing navbar-light fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-dark.svg" class="card-logo card-logo-dark" alt="logo dark" height="20">
+                    <img src="assets/images/logo-light.svg" class="card-logo card-logo-light" alt="logo light" height="20">
+                </a>
+                <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="mdi mdi-menu"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#history">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#business">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+
+<!--                    <div class="">-->
+<!--                        <a href="apps-nft-wallet.html" class="btn btn-success">Wallet Connect</a>-->
+<!--                    </div>-->
+                </div>
+
+            </div>
+        </nav>
+            <div class="bg-overlay bg-overlay-pattern"></div>
+        <!-- end navbar -->
+
+        <!-- start hero section -->
+        <section class="section nft-hero" id="aboutus">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-sm-12">
+                        <div class="text-center">
+                            <h1 class="display-4 fw-medium lh-base text-white">높은 안정성, 퀄리티. DOMFAM</h1>
+                            <h2 class="text-success mb-4 ">돔팸은 모든 이야기는 고객과 같이 함께합니다.</h2>
+                            <p class="text-white-50 lh-base">돔팸은 모든 이야기는 고객과 같이 함께합니다.
+                                2012년 시작된 (주)돔팸은 ‘Frontend’ 라는 단어가 없던 시절부터 꾸준히
+                                UI/UX 개선 사업을 진행하며, ‘하이브리드앱’, ‘웹접근성 개선’, ‘IOT’ 등
+                                다양한 고객의 요구사항들을 만족시켜 왔습니다.</p>
+
+<!--                            <div class="hstack gap-2 justify-content-center">-->
+<!--                                <a href="apps-nft-create.html" class="btn btn-primary">Create Own <i class="ri-arrow-right-line align-middle ms-1"></i></a>-->
+<!--                                <a href="apps-nft-explore.html" class="btn btn-danger">회사소개서 다운로드<i class="ri-arrow-right-line align-middle ms-1"></i></a>-->
+<!--                            </div>-->
+                        </div>
+                    </div><!--end col-->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end hero section -->
+
+
+        <section class="section" id="frontend">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="mb-3 fw-semibold lh-base">Frontend 전문가 집단</h2>
+                            <p class="text-desc">전문 개발 인력 기반으로 최고를 지향합니다.
+                                구성인원 중 70%이상이 Frontend 전문 개발인력으로,
+                                빠르게 변하는 다양한 플랫폼, 솔루션등에 신속하고 안정적인 대처가 가능합니다.</p>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="text-center mb-5 mt-5">
+                        <img src="assets/images/landing/frontend.png" alt="front">
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <!-- end marketplace -->
+        <div class="section bg-light" id="history">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-semibold lh-base">History</h2>
+                        <!-- <p class="text-desc">설명글이 들어갑니다. </p> -->
+                    </div>
+                </div><!-- end col -->
+                <div class="col-lg-10">
+                    <div class="horizontal-timeline my-3">
+                        <div class="swiper timelineSlider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-69569f81460488ee" aria-live="off" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>돔팸(domfam) 창업</li>
+                                                <li>돔팸(domfam) 스터디 스쿨 오픈</li>
+                                                <li>SSG.com, ABC마트등의 브랜드사이트 구축 (PC, Mobile web)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2012</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SK CS(Cloud Streaming) 분야 구축
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2012</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            IOT 사업분야 구축 (Mobile web, Hybrid App, Admin)
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2015</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>O2O 사업분야 구축 (PC, Mobile web, Hybrid App, Admin)</li>
+                                                <li>SPA Frontend 프레임웍 구축 및 사이트 구축 (네이버, KT)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2016</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            CJ Hello Alaska(SK CS) 전체 개편 및 구축 시작 
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2017</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SKP SmartHome 멀티 디바이스(SKB TV, Samsung 냉장고) 구축
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2018</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SK, LG 협력사 등록
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2019</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>아이스크림 ‘홈런’ 서비스 개발</li>
+                                                <li>LG U+, LG Hellovision 아이들나라 구축</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2021</span></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SK hynix HDS 고도화 구축
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2022</span></div>
+                                    </div>
+                                </div>
+                                <!--end swiper-slide-->
+                            </div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" ></div>
+                            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button"></div>
+                            <span class="swiper-notification"></span></div>
+                    </div>
+                </div>
+            </div><!-- end row -->
+            </div>
+
+        </div>
+
+        <!-- start features -->
+        <section class="section" id="business">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="mb-3 fw-semibold lh-base">우리의 사업분야</h2>
+                            <p class="text-desc">The process of creating an NFT may cost less than a dollar, but the process of selling it can cost up to a thousand dollars. For example, Allen Gannett, a software developer.</p>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="card text-center border shadow-none">
+                            <div class="card-body py-5 px-4">
+                                <img src="assets/images/nft/wallet/metamask.png" alt="" height="55" class="mb-3 pb-2">
+                                <h5>Broadcast</h5>
+                                <p class="text-muted pb-1">Cloud streaming service,
+                                    Broadcast
+                                    UI/UX service</p>
+<!--                                <a href="#!" class="btn btn-soft-info">Connect Wallet</a>-->
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-lg-4">
+                        <div class="card text-center border shadow-none">
+                            <div class="card-body py-5 px-4">
+                                <img src="assets/images/nft/wallet/coinbase.png" alt="" height="55" class="mb-3 pb-2">
+                                <h5>Service</h5>
+                                <p class="text-muted pb-1">Workspace service</p>
+<!--                                <a href="#!" class="btn btn-info">Change Wallet</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-4">
+                        <div class="card text-center border shadow-none">
+                            <div class="card-body py-5 px-4">
+                                <img src="assets/images/nft/wallet/binance.png" alt="" height="55" class="mb-3 pb-2">
+                                <h5>Website</h5>
+                                <p class="text-muted pb-1">Desktop/Mobile multi device, Hybrid web, 웹접근성</p>
+<!--                                <a href="#!" class="btn btn-soft-info">Connect Wallet</a>-->
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+            </div><!-- end container -->
+        </section><!-- end features -->
+
+        <!-- start plan -->
+        <section class="section bg-marketplace bg-light" id="portfolio">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="text-center mb-5">
+                            <h2 class="mb-3 fw-semibold lh-base">Portfolio</h2>
+                            <p class="text-desc">설명글이 들어갑니다.</p>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                                                <!-- Swiper -->
+                                                <div class="swiper mySwiper pb-5">
+                                                    <div class="swiper-wrapper">
+                        <!--                                <div class="swiper-slide">-->
+                        <!--                                        <div class="card explore-box card-animate border">-->
+                        <!--                                            <div class="card-body">-->
+                        <!--                                                <div class="d-flex align-items-center mb-3">-->
+                        <!--                                                    <div class="ms-2 flex-grow-1">-->
+                        <!--                                                        <h6 class="mb-0 fs-15">K쇼핑 디자인 개편</h6>-->
+                        <!--                                                        <p class="mb-0 text-muted fs-13">Design, Publishing, Front development</p>-->
+                        <!--                                                    </div>-->
+                        <!--                                                    <span>2022</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="explore-place-bid-img overflow-hidden rounded">-->
+                        <!--                                                    <img src="assets/images/nft/img-05.jpg" alt="" class="explore-img w-100">-->
+                        <!--                                                    <div class="bg-overlay"></div>-->
+                        <!--&lt;!&ndash;                                                    <div class="place-bid-btn">&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                                        <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                                    </div>&ndash;&gt;-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="mt-3">-->
+                        <!--&lt;!&ndash;                                                    <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>&ndash;&gt;-->
+                        <!--                                                    <h5 class="text-success"><i class="mdi mdi-ethereum"></i> Design, Publishing, Front development</h5>-->
+                        <!--                                                    <h6 class="fs-16 mb-0">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</h6>-->
+                        <!--                                                </div>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                </div>-->
+                                                        <div class="swiper-slide">
+                                                            <div class="card">
+                                                                <img class="card-img-top img-fluid" src="assets/images/small/img-1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-2 text-success">K쇼핑 디자인 개편</h5>
+                                                                    <p class="card-text">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</p>
+                        <!--                                            <div class="text-end">-->
+                        <!--                                                <a href="javascript:void(0);" class="btn btn-primary">Submit</a>-->
+                        <!--                                            </div>-->
+                                                                </div>
+                        <!--                                        <div class="card-footer">-->
+                        <!--                                            Design, Publishing, Front development-->
+                        <!--                                        </div>-->
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">수행업무 : Design, Publishing, Front development</li>
+                                                                    <li class="list-group-item">개발언어 : React</li>
+                                                                    <li class="list-group-item">Library/Framework : Bootstrap</li>
+                                                                    <li class="list-group-item">2023.01.01 ~ 2023.12.12</li>
+                                                                </ul>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="card">
+                                                                <img class="card-img-top img-fluid" src="assets/images/small/img-1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-2 text-success">K쇼핑 디자인 개편</h5>
+                                                                    <p class="card-text">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</p>
+                        <!--                                            <div class="text-end">-->
+                        <!--                                                <a href="javascript:void(0);" class="btn btn-primary">Submit</a>-->
+                        <!--                                            </div>-->
+                                                                </div>
+                        <!--                                        <div class="card-footer">-->
+                        <!--                                            Design, Publishing, Front development-->
+                        <!--                                        </div>-->
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">수행업무 : Design, Publishing, Front development</li>
+                                                                    <li class="list-group-item">개발언어 : React</li>
+                                                                    <li class="list-group-item">Library/Framework : Bootstrap</li>
+                                                                    <li class="list-group-item">2023.01.01 ~ 2023.12.12</li>
+                                                                </ul>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="card">
+                                                                <img class="card-img-top img-fluid" src="assets/images/small/img-1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-2 text-success">K쇼핑 디자인 개편</h5>
+                                                                    <p class="card-text">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</p>
+                        <!--                                            <div class="text-end">-->
+                        <!--                                                <a href="javascript:void(0);" class="btn btn-primary">Submit</a>-->
+                        <!--                                            </div>-->
+                                                                </div>
+                        <!--                                        <div class="card-footer">-->
+                        <!--                                            Design, Publishing, Front development-->
+                        <!--                                        </div>-->
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">수행업무 : Design, Publishing, Front development</li>
+                                                                    <li class="list-group-item">개발언어 : React</li>
+                                                                    <li class="list-group-item">Library/Framework : Bootstrap</li>
+                                                                    <li class="list-group-item">2023.01.01 ~ 2023.12.12</li>
+                                                                </ul>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="card">
+                                                                <img class="card-img-top img-fluid" src="assets/images/small/img-1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-2 text-success">K쇼핑 디자인 개편</h5>
+                                                                    <p class="card-text">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</p>
+                        <!--                                            <div class="text-end">-->
+                        <!--                                                <a href="javascript:void(0);" class="btn btn-primary">Submit</a>-->
+                        <!--                                            </div>-->
+                                                                </div>
+                        <!--                                        <div class="card-footer">-->
+                        <!--                                            Design, Publishing, Front development-->
+                        <!--                                        </div>-->
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">수행업무 : Design, Publishing, Front development</li>
+                                                                    <li class="list-group-item">개발언어 : React</li>
+                                                                    <li class="list-group-item">Library/Framework : Bootstrap</li>
+                                                                    <li class="list-group-item">2023.01.01 ~ 2023.12.12</li>
+                                                                </ul>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="card">
+                                                                <img class="card-img-top img-fluid" src="assets/images/small/img-1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-2 text-success">K쇼핑 디자인 개편</h5>
+                                                                    <p class="card-text">설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다. 설명글이 들어갑니다.</p>
+                        <!--                                            <div class="text-end">-->
+                        <!--                                                <a href="javascript:void(0);" class="btn btn-primary">Submit</a>-->
+                        <!--                                            </div>-->
+                                                                </div>
+                        <!--                                        <div class="card-footer">-->
+                        <!--                                            Design, Publishing, Front development-->
+                        <!--                                        </div>-->
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">수행업무 : Design, Publishing, Front development</li>
+                                                                    <li class="list-group-item">개발언어 : React</li>
+                                                                    <li class="list-group-item">Library/Framework : Bootstrap</li>
+                                                                    <li class="list-group-item">2023.01.01 ~ 2023.12.12</li>
+                                                                </ul>
+                        
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-pagination swiper-pagination-dark"></div>
+                                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--         end plan-->
+        <!-- start cta -->
+        <section class="py-5 bg-secondary position-relative">
+            <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
+            <div class="container">
+                <div class="row align-items-center gy-4">
+                    <div class="col-sm">
+                        <div>
+                            <h4 class="text-white mb-0 fw-semibold">DOMFAM introduction letter</h4>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-sm-auto">
+                        <div>
+<!--                            <a href="apps-nft-create.html" class="btn bg-gradient btn-danger">Create NFT</a>-->
+                            <a href="apps-nft-explore.html" class="btn bg-gradient btn-info">Download</a>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end cta -->
+
+        <!-- Start footer -->
+        <footer class="custom-footer bg-dark py-5 position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div>
+                            <div>
+                                <img src="assets/images/logo-light.svg" alt="logo light" height="20">
+                            </div>
+                            <div class="mt-4">
+                                <p>(주) 돔팸 [DOMFAM]   대표 : 최현원   E-mail : danboys@domfam.com </p>
+                                <p>서울시 강서구 마곡서로 152 두산더랜드타워 B동 1205호,1206호 돔팸</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center text-sm-start align-items-center mt-5">
+                    <div class="col-sm-6">
+                        <div>
+                            <p class="copy-rights mb-0">
+                                <script> document.write(new Date().getFullYear()) </script> © DOMFAM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-end mt-3 mt-sm-0">
+                            <ul class="list-inline mb-0 footer-social-link">
+                                <li class="list-inline-item">
+                                    <a href="javascript: void(0);" class="avatar-xs d-block">
+                                        <div class="avatar-title rounded-circle">
+                                            <i class="ri-facebook-fill"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript: void(0);" class="avatar-xs d-block">
+                                        <div class="avatar-title rounded-circle">
+                                            <i class="ri-github-fill"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript: void(0);" class="avatar-xs d-block">
+                                        <div class="avatar-title rounded-circle">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript: void(0);" class="avatar-xs d-block">
+                                        <div class="avatar-title rounded-circle">
+                                            <i class="ri-google-fill"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript: void(0);" class="avatar-xs d-block">
+                                        <div class="avatar-title rounded-circle">
+                                            <i class="ri-dribbble-line"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <!--start back-to-top-->
+        <button onclick="topFunction()" class="btn btn-icon landing-back-top" id="back-to-top">
+            <i class="ri-arrow-up-line"></i>
+        </button>
+        <!--end back-to-top-->
+
+    </div>
+    <!-- end layout wrapper -->
+
+
+    @@include("partials/vendor-scripts.html")
+
+    <!--Swiper slider js-->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/pages/timeline.init.js"></script>
+
+    <script src="assets/js/pages/nft-landing.init.js"></script>
+
+</body>
+
+</html>

@@ -2,40 +2,125 @@
 // Google font - Poppins
 //
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 //
 // Premium Font : HKGrotesk
 //
 
 @font-face {
-    font-family: "hkgrotesk";
-    src: url("../fonts/hkgrotesk-light.eot");
-    src: local('hkgrotesk light'), url("../fonts/hkgrotesk-light.woff") format("woff");
-    font-weight: 300;
+	font-family: "hkgrotesk";
+	src: url("../fonts/hkgrotesk-light.eot");
+	src: local("hkgrotesk light"),
+		url("../fonts/hkgrotesk-light.woff") format("woff");
+	font-weight: 300;
 }
 
 @font-face {
-    font-family: "hkgrotesk";
-    src: url("../fonts/hkgrotesk-regular.eot");
-    src: local('hkgrotesk regular'), url("../fonts/hkgrotesk-regular.woff") format("woff");
-    font-weight: 400;
+	font-family: "hkgrotesk";
+	src: url("../fonts/hkgrotesk-regular.eot");
+	src: local("hkgrotesk regular"),
+		url("../fonts/hkgrotesk-regular.woff") format("woff");
+	font-weight: 400;
 }
 @font-face {
-    font-family: "hkgrotesk";
-    src: url("../fonts/hkgrotesk-medium.eot");
-    src: local('hkgrotesk medium'), url("../fonts/hkgrotesk-medium.woff") format("woff");
-    font-weight: 500;
+	font-family: "hkgrotesk";
+	src: url("../fonts/hkgrotesk-medium.eot");
+	src: local("hkgrotesk medium"),
+		url("../fonts/hkgrotesk-medium.woff") format("woff");
+	font-weight: 500;
 }
 @font-face {
-    font-family: "hkgrotesk";
-    src: url("../fonts/hkgrotesk-semibold.eot");
-    src: local('hkgrotesk semibold'), url("../fonts/hkgrotesk-semibold.woff") format("woff");
-    font-weight: 600;
+	font-family: "hkgrotesk";
+	src: url("../fonts/hkgrotesk-semibold.eot");
+	src: local("hkgrotesk semibold"),
+		url("../fonts/hkgrotesk-semibold.woff") format("woff");
+	font-weight: 600;
 }
 @font-face {
-    font-family: "hkgrotesk";
-    src: url("../fonts/hkgrotesk-bold.eot");
-    src: local('hkgrotesk bold'), url("../fonts/hkgrotesk-bold.woff") format("woff");
-    font-weight: 700;
+	font-family: "hkgrotesk";
+	src: url("../fonts/hkgrotesk-bold.eot");
+	src: local("hkgrotesk bold"),
+		url("../fonts/hkgrotesk-bold.woff") format("woff");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Thin.otf") format("otf");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Light.otf") format("otf");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Regular.otf") format("otf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Medium.otf") format("otf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Bold.otf") format("otf");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "NotoSansKR";
+	src: url("../fonts/NotoSansKR-Black.otf") format("otf");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Spoqa Han Sans Neo";
+	font-weight: 700;
+	src: local("Spoqa Han Sans Neo Bold"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2") format("woff2"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff") format("woff"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Spoqa Han Sans Neo";
+	font-weight: 500;
+	src: local("Spoqa Han Sans Neo Medium"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2") format("woff2"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff") format("woff"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf")
+			format("truetype");
+}
+
+@font-face {
+	font-family: "Spoqa Han Sans Neo";
+	font-weight: 400;
+	src: local("Spoqa Han Sans Neo Regular"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2")
+			format("woff2"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff") format("woff"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf")
+			format("truetype");
+}
+
+@font-face {
+	font-family: "Spoqa Han Sans Neo";
+	font-weight: 300;
+	src: local("Spoqa Han Sans Neo Light"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2") format("woff2"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff") format("woff"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Spoqa Han Sans Neo";
+	font-weight: 100;
+	src: local("Spoqa Han Sans Neo Thin"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2") format("woff2"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff") format("woff"),
+		url("../fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.ttf") format("truetype");
 }
