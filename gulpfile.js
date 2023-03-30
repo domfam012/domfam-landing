@@ -47,6 +47,14 @@ const paths = {
             dir: './dist/assets/js',
             files: './dist/assets/js/pages',
         },
+        images: {
+            dir: './dist/assets/images',
+            files: './dist/assets/images',
+        },
+        fonts: {
+            dir: './dist/assets/fonts',
+            files: './dist/assets/fonts',
+        },
     },
     src: {
         base: {
@@ -69,6 +77,14 @@ const paths = {
             dir: './src/assets/scss',
             files: './src/assets/scss/**/**/*',
             main: './src/assets/scss/config/app.scss'
+        },
+        images: {
+            dir: './src/assets/images',
+            files: './src/assets/images/**/*',
+        },
+        fonts: {
+            dir: './src/assets/fonts',
+            files: './src/assets/fonts/**/*',
         },
         icon: {
             dir: './src/assets/scss',
@@ -585,6 +601,8 @@ gulp.task('copy:all', function (cb) {
                 '!' + paths.src.js.main,
                 '!' + paths.src.js.files,
                 '!' + paths.src.scss.dir,
+                '!' + paths.src.images.files,
+                '!' + paths.src.fonts.files,
             ])
             .pipe(gulp.dest(destPath));
     } else {
