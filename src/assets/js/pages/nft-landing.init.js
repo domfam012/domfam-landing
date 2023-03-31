@@ -55,8 +55,8 @@ Array.from(filterBtns).forEach(function (button) {
 //collection categories
 var swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
-	slidesPerView: 2,
-	spaceBetween: 10,
+	slidesPerView: 1.5,
+	spaceBetween: 20,
 	loop: true,
 	autoplay: {
 		delay: 2500,
@@ -73,14 +73,14 @@ var swiper = new Swiper(".mySwiper", {
 	breakpoints: {
 		640: {
 			slidesPerView: 2,
-			spaceBetween: 10,
+			spaceBetween: 20,
 		},
 		768: {
 			slidesPerView: 2,
 			spaceBetween: 20,
 		},
 		1024: {
-			slidesPerView: 4,
+			slidesPerView: 3.5,
 			spaceBetween: 30,
 		},
 		1200: {

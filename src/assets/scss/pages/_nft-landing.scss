@@ -117,6 +117,26 @@
 		ul {
 			list-style: none;
 		}
+		h5 {
+			color: $secondary;
+			position: relative;
+			margin-top: 40px;
+		}
+		h5::before {
+			display: inline-block;
+			width: 48px;
+			height: 4px;
+			border-radius: 2px;
+			content: " ";
+			background-color: $secondary;
+			position: absolute;
+			top: -30px;
+			left: calc(50% - 24px);
+		}
+	}
+	#history {
+		background: url(../images/landing/shape.png) top center no-repeat;
+		background-size: cover;
 	}
 	#portfolio {
 		.container-fluid {
@@ -131,11 +151,17 @@
 				}
 			}
 		}
+		.mySwiper {
+			padding-bottom: 4em;
+		}
+		.card {
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+		}
 	}
 
 	#frontend {
 		.container {
-			margin-top: -150px;
+			margin-top: -120px;
 			background: white;
 			padding: 50px;
 		}

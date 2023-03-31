@@ -512,7 +512,7 @@ gulp.task('icon', async function () {
             .pipe(cleanCSS())
             .pipe(
                 rename({
-                    suffix: ".min"
+                    suffix: ".min"``
                 })
             )
             .pipe(gulp.dest(cssDest));
