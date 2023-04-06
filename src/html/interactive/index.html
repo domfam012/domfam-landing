@@ -5,10 +5,10 @@
     @@include("partials/title-meta.html", {"title": "Landing"})
 
     <!-- aos css -->
-    <link rel="stylesheet" href="assets/libs/aos/aos.css" />
+    <link rel="stylesheet" href="assets/libs/aos/aos.css"/>
 
     <!--Swiper slider css-->
-    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css"/>
 
     @@include("partials/head-css.html")
 
@@ -16,452 +16,500 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
-    <!-- Begin page -->
-    <div class="layout-wrapper landing">
-        <nav class="navbar navbar-expand-lg navbar-landing navbar-light fixed-top" id="navbar">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/logo-dark.svg" class="card-logo card-logo-dark" alt="logo dark" height="20">
-                    <img src="assets/images/logo-light.svg" class="card-logo card-logo-light" alt="logo light" height="20">
-                </a>
-                <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="mdi mdi-menu"></i>
-                </button>
+<!-- Begin page -->
+<div class="layout-wrapper landing">
+    <nav class="navbar navbar-expand-lg navbar-landing navbar-light fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo-dark.svg" class="card-logo card-logo-dark" alt="logo dark" height="20">
+                <img src="assets/images/logo-light.svg" class="card-logo card-logo-light" alt="logo light" height="20">
+            </a>
+            <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#aboutus">회사소개</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#history">연혁</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#business">사업분야</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">포트폴리오</a>
-                        </li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutus">회사소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">연혁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#business">사업분야</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">포트폴리오</a>
+                    </li>
+                </ul>
 
-<!--                    <div class="">-->
-<!--                        <a href="apps-nft-wallet.html" class="btn btn-success">Wallet Connect</a>-->
-<!--                    </div>-->
-                </div>
-
+                <!--                    <div class="">-->
+                <!--                        <a href="apps-nft-wallet.html" class="btn btn-success">Wallet Connect</a>-->
+                <!--                    </div>-->
             </div>
-        </nav>
-            <div class="bg-overlay bg-overlay-pattern"></div>
-        <!-- end navbar -->
 
-        <!-- start hero section -->
-        <section class="section nft-hero" id="aboutus">
-            <div class="bg-overlay"></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-sm-12">
-                        <div class="text-center">
-                            <h1 class="display-2 fw-medium text-white mb-3" data-aos="fade-down" data-aos-duration="2500">높은 안정성, 퀄리티. DOMFAM</h1>
-                            <p class="display-6 text-primary mb-5" data-aos="fade-down" data-aos-duration="2500">돔팸은 모든 이야기는 고객과 같이 함께합니다.</p>
-                            <p class="text-white-50 lh-base" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="1000">
-                                2012년 시작된 (주)돔팸은 ‘Frontend’ 라는 단어가 없던 시절부터 꾸준히
-                                UI/UX 개선 사업을 진행하며, ‘하이브리드앱’, ‘웹접근성 개선’, ‘IOT’ 등
-                                다양한 고객의 요구사항들을 만족시켜 왔습니다.</p>
-                        </div>
-                    </div><!--end col-->
-                </div>
-            </div><!-- end container -->
-        </section><!-- end hero section -->
+        </div>
+    </nav>
+    <div class="bg-overlay bg-overlay-pattern"></div>
+    <!-- end navbar -->
 
-
-        <section class="section" id="frontend" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="2000">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Frontend 전문가 집단</h2>
-                            <p class="text-desc">전문 개발 인력 기반으로 최고를 지향합니다.
-                                구성인원 중 70%이상이 Frontend 전문 개발인력으로,
-                                빠르게 변하는 다양한 플랫폼, 솔루션등에 신속하고 안정적인 대처가 가능합니다.</p>
-                        </div>
+    <!-- start hero section -->
+    <section class="section nft-hero" id="aboutus">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-sm-12">
+                    <div class="text-center">
+                        <h1 class="display-2 fw-medium text-white mb-3" data-aos="fade-down" data-aos-duration="2500">높은 안정성, 퀄리티. DOMFAM</h1>
+                        <p class="display-6 text-primary mb-5" data-aos="fade-down" data-aos-duration="2500">돔팸은 모든 이야기는 고객과 같이 함께합니다.</p>
+                        <p class="text-white-50 lh-base" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+                            2012년 시작된 (주)돔팸은 ‘Frontend’ 라는 단어가 없던 시절부터 꾸준히
+                            UI/UX 개선 사업을 진행하며, ‘하이브리드앱’, ‘웹접근성 개선’, ‘IOT’ 등
+                            다양한 고객의 요구사항들을 만족시켜 왔습니다.</p>
                     </div>
-                    <div class="text-center mb-5 mt-5">
-                        <img src="assets/images/landing/frontend.png" alt="front">
+                </div><!--end col-->
+            </div>
+        </div><!-- end container -->
+    </section><!-- end hero section -->
+
+
+    <section class="section" id="frontend" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="mb-3 fw-semibold lh-base">Frontend 전문가 집단</h2>
+                        <p class="text-desc">전문 개발 인력 기반으로 최고를 지향합니다.
+                            구성인원 중 70%이상이 Frontend 전문 개발인력으로,
+                            빠르게 변하는 다양한 플랫폼, 솔루션등에 신속하고 안정적인 대처가 가능합니다.</p>
                     </div>
                 </div>
-            </div><!-- end container -->
-        </section>
+                <div class="text-center mb-5 mt-5">
+                    <img src="assets/images/landing/frontend.png" alt="front">
+                </div>
+            </div>
+        </div><!-- end container -->
+    </section>
 
-        <!-- end marketplace -->
-        <div class="section bg-light" id="history" data-aos="fade-up" data-aos-duration="1000">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="text-center mb-5">
-                            <h2 class="fw-semibold lh-base">연혁</h2>
-                            <!-- <p class="text-desc">설명글이 들어갑니다. </p> -->
-                        </div>
+    <!-- end marketplace -->
+    <section class="section bg-light" id="history" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-semibold lh-base">연혁</h2>
+                        <!-- <p class="text-desc">설명글이 들어갑니다. </p> -->
                     </div>
-                    <div class="col-lg-10">
-                        <div class="horizontal-timeline">
-                            <div class="swiper timelineSlider">
-                                <div class="swiper-wrapper">
-                                    <!-- 2022 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                SK hynix HDS 고도화 구축
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2022</span></div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="horizontal-timeline">
+                        <div class="swiper timelineSlider">
+                            <div class="swiper-wrapper">
+                                <!-- 2022 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>[NIPA] 2023 SW미래채움 사업관리 시스템 수주</li>
+                                                <li>[SK hynix] HDS 사이트 구축</li>
+                                                <li>[아이스크림 아트] '아트 봉봉' 고도화 시스템 수주</li>
+                                                <li>[코리아 런드리] BM 모델 서비스 구축</li>
+                                                <li>[유비벨록스] '유플래너' 고도화 서비스 구축</li>
+                                                <li>[미래N] '엠티쳐' 고도화 서비스 수주</li>
+                                            </ul>
                                         </div>
+                                        <div class="time"><span class="badge bg-success">2023</span></div>
                                     </div>
-                                    <!-- 2021 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                <ul>
-                                                    <li>아이스크림 ‘홈런’ 서비스 개발</li>
-                                                    <li>LG U+, LG Hellovision 아이들나라 구축</li>
-                                                </ul>
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2021</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2019 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                SK, LG 협력사 등록
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2019</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2018 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                SKP SmartHome 멀티 디바이스(SKB TV, Samsung 냉장고) 구축
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2018</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2017 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                CJ Hello Alaska(SK CS) 전체 개편 및 구축 시작 
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2017</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2016 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                <ul>
-                                                    <li>O2O 사업분야 구축 (PC/Mobile web, Hybrid App, Admin)</li>
-                                                    <li>SPA Frontend 프레임웍 및 사이트 구축 (네이버, KT)</li>
-                                                </ul>
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2016</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2015 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                IOT 사업분야 구축 (Mobile web, Hybrid App, Admin)
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2015</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2013 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                SK CS(Cloud Streaming) 분야 구축
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2013</span></div>
-                                        </div>
-                                    </div>
-                                    <!-- 2012 -->
-                                    <div class="swiper-slide">
-                                        <div class="card pt-2 border-0 item-box text-center">
-                                            <div class="timeline-content p-3 rounded">
-                                                <ul>
-                                                    <li>돔팸(domfam) 창업</li>
-                                                    <li>돔팸(domfam) 스터디 스쿨 오픈</li>
-                                                    <li>SSG.com, ABC마트등의 브랜드사이트 구축 (PC, Mobile web)</li>
-                                                </ul>
-                                            </div>
-                                            <div class="time"><span class="badge bg-success">2012</span></div>
-                                        </div>
-                                    </div>
-                                    
                                 </div>
-                                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" ></div>
-                                <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button"></div>
+                                <!-- 2022 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+
+                                            <ul>
+                                                <li>[SK hynix] HDS(hynix design system) 고도화 구축</li>
+                                                <li>[마크로젠] 사이트 리뉴얼</li>
+                                                <li>[닥터G] 사이트 리뉴얼</li>
+                                                <li>[경동나비엔] 753,553 제품 출시</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2022</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2021 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>[아이스크림] '홈런' 서비스 개발</li>
+                                                <li>[천재교육] 'T-셀파' 사이트 리뉴얼</li>
+                                                <li>[LG U+], [LG Hellovision] V4 아이들나라 구축</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2021</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2019 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+
+                                            <ul>
+                                                <li>[LG Hellovision] V3 아이들나라 구축</li>
+                                                <li>SK, LG 협력사 등록</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2019</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2018 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SKP SmartHome 멀티 디바이스(SKB TV, Samsung 냉장고) 구축
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2018</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2017 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            CJ Hello Alaska(SK CS) 전체 개편 및 구축 시작
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2017</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2016 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>O2O 사업분야 구축 (PC/Mobile web, Hybrid App, Admin)</li>
+                                                <li>SPA Frontend 프레임웍 및 사이트 구축 (네이버, KT)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2016</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2015 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            IOT 사업분야 구축 (Mobile web, Hybrid App, Admin)
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2015</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2013 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            SK CS(Cloud Streaming) 분야 구축
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2013</span></div>
+                                    </div>
+                                </div>
+                                <!-- 2012 -->
+                                <div class="swiper-slide">
+                                    <div class="card pt-2 border-0 item-box text-center">
+                                        <div class="timeline-content p-3 rounded">
+                                            <ul>
+                                                <li>돔팸(domfam) 창업</li>
+                                                <li>돔팸(domfam) 스터디 스쿨 오픈</li>
+                                                <li>SSG.com, ABC마트등의 브랜드사이트 구축 (PC, Mobile web)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="time"><span class="badge bg-success">2012</span></div>
+                                    </div>
+                                </div>
+
                             </div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- start features -->
-        <section class="section" id="business">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">우리의 사업분야</h2>
-                            <p class="text-desc">The process of creating an NFT may cost less than a dollar, but the process of selling it can cost up to a thousand dollars. For example, Allen Gannett, a software developer.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-4">
-                    <div class="col-md-4"  data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card text-center border">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/landing/business1.png" alt="" class="mb-3 pb-2">
-                                <h5>방송플랫폼 개발</h5>
-                                <ul>
-                                    <li>Cloud streaming service</li>
-                                    <li>Broadcast</li>
-                                    <li>UI/UX service</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                        <div class="card text-center border">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/landing/business2.png" alt="" class="mb-3 pb-2">
-                                <h5>서비스</h5>
-                                <p class="text-muted pb-1">Workspace service</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
-                        <div class="card text-center border">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/landing/business3.png" alt="" class="mb-3 pb-2">
-                                <h5>웹/앱</h5>
-                                <ul>
-                                    <li>Desktop/Mobile multi device</li>
-                                    <li>Hybrid web</li>
-                                    <li>웹접근성</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- end container -->
-        </section><!-- end features -->
-
-        <!-- start plan -->
-        <section class="section bg-light" id="portfolio">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">포트폴리오</h2>
-                            <!-- <p class="text-desc">설명글이 들어갑니다.</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <!-- <div class="col-lg-12"> -->
-                        <!-- Swiper -->
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <img class="card-img-top img-fluid" src="assets/images/landing/portfolio1.png" alt="LG U+ | LG 헬로비전 아이들나라 개편 ">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">LG U+ | LG 헬로비전 아이들나라 개편 </h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">(주)마크로젠 기업사이트 리뉴얼</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio2.png" alt="(주)마크로젠 기업사이트 리뉴얼">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <img class="card-img-top img-fluid" src="assets/images/landing/portfolio3.png" alt="닥터지 공식 온라인 쇼핑몰 리뉴얼">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">닥터지 공식 온라인 쇼핑몰 리뉴얼</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">천재교육 T셀파 리뉴얼</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio4.png" alt="천재교육 T셀파 리뉴얼">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <img class="card-img-top img-fluid" src="assets/images/landing/portfolio5.png" alt="K쇼핑 디자인 개편">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">K쇼핑 디자인 개편</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">Naver 증권/삼성증권</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio6.png" alt="Naver 증권/삼성증권">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <img class="card-img-top img-fluid" src="assets/images/landing/portfolio7.png" alt="한국교통안전공단 디스플레이용 대시보드">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">한국교통안전공단 디스플레이용 대시보드</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                                <!-- <div class="swiper-slide"> -->
-                                    <div class="card swiper-slide">
-                                        <div class="card-body py-4">
-                                            <h5 class="card-title mb-2 text-dark">롯데백화점 VCC AI분석</h5>
-                                            <p class="card-text">설명글이 들어갑니다.</p>
-                                        </div>
-                                        <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio8.png" alt="롯데백화점 VCC AI분석">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Output : PC Web / Mobile Web</li>
-                                            <li class="list-group-item">Publishing : HTML5, SCSS</li>
-                                            <li class="list-group-item">Library/Framework : Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-dark"></div>
-                        </div>
-                    <!-- </div> -->
-                </div>
-            </div>
-        </section>
-<!--         end plan-->
-        <!-- start cta -->
-        <section class="py-5 bg-secondary position-relative">
-            <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-sm">
-                        <h3 class="text-white mb-0">회사소개서 다운로드</h3>
-                    </div>
-                    <div class="col-sm-auto">
-                        <a href="apps-nft-explore.html" class="btn btn-light">다운로드</a>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end cta -->
-
-        <!-- Start footer -->
-        <footer class="custom-footer bg-dark py-5 position-relative">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mt-3">
-                        <div>
-                            <img src="assets/images/logo-light.svg" alt="logo light" height="20">
-                            <div class="mt-4">
-                                <p class="mb-0">(주) DOMFAM <strong class="m-lg-3">대표 : 최현원</strong> </p>
-                                <p><a href="matil:danboys@domfam.com">E-mail : danboys@domfam.com</a></p>
-                                <p class="mb-0">서울시 강서구 마곡서로 152 두산더랜드타워 B동 1205호,1206호 돔팸</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row text-center text-sm-start align-items-center mt-3">
-                    <div class="col-sm-6">
-                        <p class="copy-rights mb-0">
-                            <script> document.write(new Date().getFullYear()) </script> © DOMFAM
+    <!-- start features -->
+    <section class="section" id="business">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="mb-3 fw-semibold lh-base">우리의 사업분야</h2>
+                        <p class="text-desc">
+                            웹/앱에 관련된 사업분야를 기본으로 다양한 사업분야로 확장하고 있습니다.<br>
+                            브로드 캐스트 사업을 통해서 IP 사업자들의 B2C 서비스를 지원생산하고 있습니다.<br>
+                            코로나 이후에는 교육 컨텐츠 사업을 다양하게 진행 하고 있습니다.
                         </p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- end footer -->
 
-        <!--start back-to-top-->
-        <button onclick="topFunction()" class="btn btn-icon rounded-pill btn-dark waves-effect waves-light landing-back-top" id="back-to-top">
-            <i class="ri-arrow-up-line"></i>
-        </button>
-        <!--end back-to-top-->
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card text-center border">
+                        <div class="card-body py-5 px-4">
+                            <img src="assets/images/landing/business1.png" alt="" class="mb-3 pb-2">
+                            <h5>방송플랫폼 개발</h5>
+                            <ul class="p-0">
+                                <li>Cloud streaming service(CSS)</li>
+                                <li>Broadcast</li>
+                                <li>UI/UX service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                    <div class="card text-center border">
+                        <div class="card-body py-5 px-4">
+                            <img src="assets/images/landing/business2.png" alt="" class="mb-3 pb-2">
+                            <h5>서비스</h5>
+                            <ul class="p-0">
+                                <li>Workspace service</li>
+                                <li>Pagelist Service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
-    <!-- end layout wrapper -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
+                    <div class="card text-center border">
+                        <div class="card-body py-5 px-4">
+                            <img src="assets/images/landing/business3.png" alt="" class="mb-3 pb-2">
+                            <h5>웹/앱</h5>
+                            <ul class="p-0">
+                                <li>Desktop/Mobile multi device</li>
+                                <li>Hybrid web</li>
+                                <li>Web Accessibility</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end container -->
+    </section><!-- end features -->
+
+    <!-- start plan -->
+    <section class="section bg-light" id="portfolio">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="text-center mb-5">
+                        <h2 class="mb-3 fw-semibold lh-base">포트폴리오</h2>
+                        <!-- <p class="text-desc">설명글이 들어갑니다.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- <div class="col-lg-12"> -->
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-top img-fluid" src="assets/images/landing/portfolio-hds.png" alt="SK hynix HDS 개편 및 유지보수">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">SK hynix HDS 개편 및 유지보수 </h5>
+                                <p class="card-text">SK hynix 내부 디자인 시스템을 React기반 UX 프레임웍 구축</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : 사내 디자인 시스템 개편</li>
+                                <li class="list-group-item">CSS Framework : Antd</li>
+                                <li class="list-group-item">JS Framework : React16</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-top img-fluid" src="assets/images/landing/portfolio1.png" alt="LG U+ | LG 헬로비전 아이들나라 개편 ">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">LG U+ | LG 헬로비전 아이들나라 개편 </h5>
+                                <p class="card-text">LG 계열사에서 진행한 TV 브로드 캐스트 B2C 서비스. 아이들나라 구축 개편 CS 사업 진행</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : Cloud Streaming Service</li>
+                                <li class="list-group-item">CSS Framework : Bootstrap</li>
+                                <li class="list-group-item">JS Framework : React16</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio2.png" alt="(주)마크로젠 기업사이트 리뉴얼">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">(주)마크로젠 기업사이트 리뉴얼</h5>
+                                <p class="card-text">마크로젠 기업 메인 사이트 리뉴얼 작업</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">CSS Framework : Bootstrap</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-top img-fluid" src="assets/images/landing/portfolio3.png" alt="닥터지 공식 온라인 쇼핑몰 리뉴얼">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">닥터지 공식 사이트 리뉴얼</h5>
+                                <p class="card-text">닥터지 공식 사이트 멘토G 개편 리뉴얼 작업</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">CSS Framework : Bootstrap</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio4.png" alt="천재교육 T셀파 리뉴얼">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">천재교육 T셀파 리뉴얼</h5>
+                                <p class="card-text">천재교육사에서 제공하는 선생님을 위한 서비스 리뉴얼 개편 작업</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">CSS Framework : Bootstrap</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-top img-fluid" src="assets/images/landing/portfolio5.png" alt="K쇼핑 디자인 개편">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">K쇼핑 디자인 개편</h5>
+                                <p class="card-text">K쇼핑 쇼핑몰 퍼블리싱 개발 작업</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">CSS Framework : Bootstrap</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio6.png" alt="Naver 증권/삼성증권">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">Naver 증권/삼성증권</h5>
+                                <p class="card-text">네이버 X 삼성증권 페이지 구축</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, CSS</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-top img-fluid" src="assets/images/landing/portfolio7.png" alt="한국교통안전공단 디스플레이용 대시보드">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">한국교통안전공단 디스플레이용 대시보드</h5>
+                                <p class="card-text">설명글이 들어갑니다.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">Library/Framework : Bootstrap</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="swiper-slide"> -->
+                        <div class="card swiper-slide">
+                            <img class="card-img-bottom img-fluid" src="assets/images/landing/portfolio8.png" alt="롯데백화점 VCC AI분석">
+                            <div class="card-body py-4">
+                                <h5 class="card-title mb-2 text-dark">롯데백화점 VCC AI분석</h5>
+                                <p class="card-text">롯데백화점 내부 인트라넷 쳇봇 서비스 구축</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Part : PC Web / Mobile Web</li>
+                                <li class="list-group-item">Publishing : HTML5, SCSS</li>
+                                <li class="list-group-item">Framework : JAVA</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-dark"></div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <!--         end plan-->
+    <!-- start cta -->
+    <section class="py-5 bg-secondary position-relative">
+        <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-sm">
+                    <h3 class="text-white mb-0">회사소개서 다운로드</h3>
+                </div>
+                <div class="col-sm-auto">
+                    <a href="apps-nft-explore.html" class="btn btn-light">다운로드</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end cta -->
+
+    <!-- Start footer -->
+    <footer class="custom-footer bg-dark py-5 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-3">
+                    <div>
+                        <img src="assets/images/logo-light.svg" alt="logo light" height="20">
+                        <div class="mt-4">
+                            <p class="mb-0">(주) DOMFAM <strong class="m-lg-3">대표 : 최현원</strong></p>
+                            <p><a href="matil:danboys@domfam.com">E-mail : danboys@domfam.com</a></p>
+                            <p class="mb-0">서울시 강서구 마곡서로 152 두산더랜드타워 B동 1205호,1206호 돔팸</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center text-sm-start align-items-center mt-3">
+                <div class="col-sm-6">
+                    <p class="copy-rights mb-0">
+                        <script> document.write(new Date().getFullYear()) </script>
+                        © DOMFAM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-icon rounded-pill btn-dark waves-effect waves-light landing-back-top" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
+
+</div>
+<!-- end layout wrapper -->
 
 
-    @@include("partials/vendor-scripts.html")
+@@include("partials/vendor-scripts.html")
 
-    <!--Swiper slider js-->
-    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/pages/timeline.init.js"></script>
-    <script src="assets/libs/aos/aos.js"></script>
+<!--Swiper slider js-->
+<script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/pages/timeline.init.js"></script>
+<script src="assets/libs/aos/aos.js"></script>
 
-    <script src="assets/js/pages/nft-landing.init.js"></script>
-    <script src="assets/js/pages/animation-aos.init.js"></script>
+<script src="assets/js/pages/nft-landing.init.js"></script>
+<script src="assets/js/pages/animation-aos.init.js"></script>
 
 </body>
 
