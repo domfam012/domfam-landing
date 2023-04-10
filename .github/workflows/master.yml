@@ -46,4 +46,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            /home/runner/work/domfam-home/dist s3://domfam-home/dist
+            /home/runner/work/domfam-landing/domfam-landing/dist s3://domfam-home/dist
