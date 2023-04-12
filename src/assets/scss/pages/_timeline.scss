@@ -392,7 +392,7 @@
 
 		&::after {
 			content: "";
-			background-image: url(/assets/images/chevron-right.svg);
+			background-image: url(../images/chevron-right.svg);
 		}
 	}
 
@@ -401,7 +401,7 @@
 
 		&::after {
 			content: "";
-			background-image: url(/assets/images/chevron-left.svg);
+			background-image: url(../images/chevron-left.svg);
 		}
 	}
 }
