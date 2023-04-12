@@ -213,8 +213,7 @@
 			border-style: solid;
 			top: 26px;
 			right: 100%;
-			border-color: transparent var(--#{$prefix}card-bg-custom) transparent
-				transparent;
+			border-color: transparent var(--#{$prefix}card-bg-custom) transparent transparent;
 			border-width: 10px;
 		}
 
@@ -264,8 +263,7 @@
 				left: 30px;
 				margin-left: 0px;
 				top: -19px;
-				border-color: transparent transparent var(--#{$prefix}card-bg-custom)
-					transparent;
+				border-color: transparent transparent var(--#{$prefix}card-bg-custom) transparent;
 				border-width: 10px;
 				z-index: 1;
 			}
@@ -373,10 +371,12 @@
 		line-height: 40px;
 		border-radius: 50%;
 		background-color: lighten($primary, 2.5%);
-
+		top: 174px; //calc(50% - 20px);
 		&::after {
-			font-size: 24px;
-			color: $white;
+			background-position: center center;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100%;
 		}
 		&.swiper-button-disabled {
 			background-color: rgba($primary, 0.5);
@@ -391,8 +391,8 @@
 		right: 0;
 
 		&::after {
-			content: "\EA6E";
-			font-family: remixicon;
+			content: "";
+			background-image: url(/assets/images/chevron-right.svg);
 		}
 	}
 
@@ -400,8 +400,8 @@
 		left: 0;
 
 		&::after {
-			content: "\EA64";
-			font-family: remixicon;
+			content: "";
+			background-image: url(/assets/images/chevron-left.svg);
 		}
 	}
 }
